@@ -47,8 +47,8 @@ USED WORKSHEET: *****Smart School Canteen Queue*****
                   1. Confirm
                   1. Add supplyMinusNum to income
                   1. Subtract amount in index of "name" to bought in index of "name"
-0. If: Exit
-      0. Print income
-      0. Reprint Supply Check
-      0. Terminate Program, no longer looping
+1. If: Exit
+      1. Print income
+      1. Reprint Supply Check
+      1. Terminate Program, no longer looping
 11. Loop back to choose mode
