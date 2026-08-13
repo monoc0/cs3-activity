@@ -26,27 +26,27 @@ USED WORKSHEET: *****Smart School Canteen Queue*****
 3. If: Supply Check
    0. Print Supply Type and Supply Amount through iterator loop
 1. If: Supply Add
-        2. Input Supply Type
-            3. If Supply Type exists in set "name":
-                4. Input positive supplyAddNum (int)
-                5. Confirm
-                6. Add supplyAddNum to "amount" in index of "name"
-            7. Else:
-                8. Loop back to input supply type
+        1. Input Supply Type
+            1. If Supply Type exists in set "name":
+                1. Input positive supplyAddNum (int)
+                2. Confirm
+                3. Add supplyAddNum to "amount" in index of "name"
+            1. Else:
+                1. Loop back to input supply type
 6. If: Buy
-      7. Initiate loop:
-            2. Input Supply Type
-                  3. If Supply Type exists in set "name":
-                        4. If amount in index of "name" < 1:
-                              5. Loop back to supply type input, print "No Supply"
-                        6. If amount in index of "name" !< 1:
-                              7. Add price to supplyMinusNum
-                              8. Add bought in index of "name" by 1
-                              9. Loop Back to Input
-            7. Else:
-                  8. Confirm
-                  9. Add supplyMinusNum to income
-                  10. Subtract amount in index of "name" to bought in index of "name"
+      1. Initiate loop:
+            1. Input Supply Type
+                  1. If Supply Type exists in set "name":
+                        1. If amount in index of "name" < 1:
+                              1. Loop back to supply type input, print "No Supply"
+                        1. If amount in index of "name" !< 1:
+                              1. Add price to supplyMinusNum
+                              1. Add bought in index of "name" by 1
+                              1. Loop Back to Input
+            1. Else:
+                  1. Confirm
+                  1. Add supplyMinusNum to income
+                  1. Subtract amount in index of "name" to bought in index of "name"
 11. If: Exit
       12. Print income
       13. Reprint Supply Check
