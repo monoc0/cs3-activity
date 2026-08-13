@@ -26,13 +26,13 @@ USED WORKSHEET: *****Smart School Canteen Queue*****
 3. If: Supply Check
    0. Print Supply Type and Supply Amount through iterator loop
 1. If: Supply Add
-        1. Input Supply Type
+      1. Input Supply Type
             1. If Supply Type exists in set "name":
-                1. Input positive supplyAddNum (int)
-                2. Confirm
-                3. Add supplyAddNum to "amount" in index of "name"
+                  1. Input positive supplyAddNum (int)
+                  2. Confirm
+                  3. Add supplyAddNum to "amount" in index of "name"
             1. Else:
-                1. Loop back to input supply type
+                  1. Loop back to input supply type
 6. If: Buy
       1. Initiate loop:
             1. Input Supply Type
